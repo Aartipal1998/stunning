@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width:100%;
+    height:auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-inline: 60px;
+
+}
+.navbar img{
+    width:90px;
+    height: 35px;
+}
+.navbar ul{
+ width: 30%;
+ height: auto;
+ display: flex;
+ align-items:  start;
+ justify-content: space-evenly;
+ flex-direction: row;
+ margin: 5px;
+
+}
+.navbar ul li{
+    list-style: none;
+    color: gray;
+}
+#A{
+    text-decoration: underline;
+    color: black;
+}
+.navbar button{
+    width: 120px;
+    height:42px;
+    border: none;
+    border-radius: 20px;
+    background-color: lightpink;
+    color: blue;
+}
+#blue{
+    width: 130px;
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(123, 44, 123);
+    border: none;
+}
+.con1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-part img{
+    width: 600px;
+}
+.text-part{
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-inline: 100px;
+    gap:30px;
+}
+.text-part span{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    border: none;
+}
+.text-part h1{
+    width: 45%;
+    font-size: 60px;
+}
+.text-part p{
+    font-size: 20px;
+}
+.img-part{
+    width: 60%;
+}
+.con2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 80px;
+    padding-inline: 40px;
+    
+}
+.con2 span{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    font-size: 14px;
+    gap: 20px;
+
+    
+}
+.con2 h1{
+    font-size: 16px;
+}
+
+
+@media(max-width:768px){
+   .con1{
+    width: 100%;
+    flex-direction: column-reverse;
+   }
+   .text-part{
+    width: 100%;
+
+   }
+
+    
+        
+    
+}
